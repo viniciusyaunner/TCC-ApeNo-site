@@ -37,15 +37,41 @@
 footer{
     width: 100%;
     border-top: 3px solid #ffffff;
-    height: 50px;
+    height: 70px;
     background-color: #2f4f4f;
     font-family: fantasy;
-    font-size: 15px;
+    font-size: 15px;;
     color: #ffffff;
     margin: auto;
     bottom: 0;
     margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+
 }
+
 #clients{
     transition-delay: 0.5s;
+}
+ul{
+    margin-left: 15px;
+    font-size: 15px;
+}
+p{
+    font-size: 15px;
+}
+a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.right{
+    text-align: right;
+    margin-left: 750px;
+    color: #f0ffff;
+    text-decoration: none;
+    transition: 1s;
+}
+.right:hover{
+    text-decoration: underline;
+    color: #f0ffff;
+    transition: 1s;
 }
